@@ -1,0 +1,96 @@
+@charset "utf-8";
+header {
+	text-align: center;
+}
+h4.Profession {
+	font-size: 24px;
+	text-align: center;
+	color: #3c3c3c;
+	letter-spacing: 6px;
+}
+h1.Name {
+	color: #3c3c3c;
+	padding-top: 100px;
+}
+a:hover {
+	background-color: darkgray;
+}
+a.Active:link, a.Active:active, a.Active:visited {
+	background-color: lightgray;
+}
+a {
+	background-color: white;
+	padding: 8px;
+	font-family: "Raleway";
+	font-size: 15px;
+}
+a:link, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+	font-family: "Raleway";
+}
+div {
+	padding: 8px 16px;
+	width: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 1px solid #ccc;
+	display: inline-table;
+	margin-bottom: 50px;
+}
+div.slide {
+	margin-left: 15%;
+	margin-right: 15%;
+	border: none;
+}
+div.slide::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+#slider {
+	border: none;
+}
+.slide {
+	display: none;
+}
+.slide.active {
+	display: block;
+}
+img, video {
+	margin-bottom: 200px;
+	box-shadow: 0px 0px 15px 5px #888888;
+}
+video {
+	text-align: center;
+}
+#Videos {
+	text-align: center;
+}
+nav.arrows {
+	border: none;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#left-arrow, #right-arrow, #divName {
+	font-family: Raleway;
+	display: inline;
+	cursor: pointer;
+}
+p.cv {
+	text-align: center;
+	font-size: 18px;
+}
+p.title {
+	font-size: 26px;
+}
+p.text {
+	font-size: 20px;
+}
+
+div.text {
+	margin-left: 15%;
+	margin-right: 15%;
+	border: none;
+}
