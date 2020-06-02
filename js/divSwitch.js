@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	var divNames = ["ARTS", "PHOTOS", "DOORMAT", "VIDEOS"];
+	var divNames = ["ARTS", "PHOTOS", "DRAWINGS", "VIDEOS"];
 	var divIndex = 0;
   $('#right-arrow').click(function() {
 	var currentSlide = $('.slide.active');
